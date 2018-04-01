@@ -18,7 +18,7 @@
 const char* ssid     = "WiFi_Network_Name";      // Change to be your WiFi networks name
 const char* password = "WiFi_Password";         // Change to be your WiFi password
 const char* host = "api.thingspeak.com";
-const char* writeAPIKey = "CY6NNBAW26AB84SX";   // Change the XXXXXXX to your ThingSpeak writeAPI
+const char* writeAPIKey = "XXXXXXXXXXXXXXXX";   // Change the XXXXXXX to your ThingSpeak writeAPI
 
 DHT dht(DHTPIN, DHTTYPE, 15);
 
