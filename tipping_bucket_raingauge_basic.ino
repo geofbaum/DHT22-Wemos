@@ -1,3 +1,12 @@
+// This is an example that can be replicated for a homemade tipping bucket gauge
+// or a gauge that is from one of the larger commercial home weather companies
+// such as Davis or Rainwise among others. It simply requires that you are accessing
+// a two wire system. This example was used with a Rainwise Rain Gauge and it will
+// be updated with other examples to show how this type of system could be used for
+// wireless transmission of the data plus hopefully also still allowing a simplistic
+// datalogger to still be involved to allow for those always probable loss of connection
+// between a sensor and whichever type of network you might want to connect to wirelessly.
+
 const byte interruptPin = 3;
 #define CALIBRATE_FACTOR 0.0254 // amount of rain per rain bucket tip e.g. 5 is .05mm
 const int interval = 500;
